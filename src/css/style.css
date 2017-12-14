@@ -5554,4 +5554,18 @@ a.text-dark:focus, a.text-dark:hover {
 
 body {
   background: #00234C;
-  color: #87898b; }
+  color: #fff; }
+
+.hero {
+  background-image: url(http://via.placeholder.com/1920x700);
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  height: 100vh; }
+  .hero .container {
+    background: #587992;
+    padding: 2rem;
+    font-size: 1.2rem; }
+
+.main {
+  background: #587992; }

@@ -7,6 +7,23 @@ $bio-grey: #87898b;
 // TYPOGRAPHY
 
 body{
-	background: $bio-blue;
-	color: $bio-grey;
+	background:$bio-blue;
+	color:#fff;
+}
+
+.hero{
+	background-image: url(http://via.placeholder.com/1920x700);
+	background-size:cover;
+	background-position:center;
+	padding-top:100px;
+	height:100vh;
+	.container{
+		background:$bio-grey-blue;
+		padding: 2rem;
+		font-size: 1.2rem;
+	}
+}
+
+.main{
+	background:$bio-grey-blue;
 }
